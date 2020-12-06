@@ -1,0 +1,183 @@
+/* margin e o padding
+	margin - espaço fora do objeto
+	padding - espaço dentro do objeto
+
+	reset
+*/
+* {
+	margin: 0;
+	padding: 0;
+	font: 15px Raleway;
+	font-weight: 400;
+}
+
+/* formatar o header */
+header {
+	background: rgba(0,0,0,0.3); /* cor de fundo */
+	padding: 10px 20px; /* margem interna */
+	position: fixed; /* fixar o topo */
+	width: 100%; /* largura */
+	z-index: 9999;
+}
+
+/* figure - banner */
+figure {
+	background: linear-gradient(to right, #F00, #FF0, #00F, green);
+	width: 100%;
+}
+
+figure .frase {
+	color: #FFF;
+	text-align: center;
+	font-size: 36px;
+	position: absolute;
+	width: 100%;
+	margin-top: -200px;
+}
+
+figure img {
+	opacity: 0.5;
+	display: block;
+}
+
+article img, figure img {
+	width: 100%;
+}
+
+.container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+main {
+	width: 700px;
+	float: left;
+	display: grid;
+	grid-template-columns: 350px 350px;
+}
+
+article {
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 20px #ccc;
+	border-radius: 15px;
+}
+
+article h2, article p {
+	margin: 10px;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+article img {
+	border-radius: 15px 15px 0 0;
+	filter: sepia(5);
+	transition: filter 0.5s;
+}
+
+article img:hover {
+	filter: sepia(0);
+}
+
+aside {
+	width: 280px;
+	float: right;
+	background-color: #f1f1f1;
+}
+
+aside ul, aside ol {
+	margin-left: 40px;
+}
+
+aside h2 {
+	margin: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+.btn {
+	background-color: #F00;
+	color: #FFF;
+	padding: 10px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 100px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #000;
+	color: #F00;
+}
+
+.clearfix {
+	clear: both;
+}
+
+header nav {
+	float: right; /* flutuar o menu a direita */
+	padding: 20px 30px;
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+}
+
+header nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	/* background: linear-gradient(to right,#F00,#FF0); */
+}
+
+header nav ul li a:hover {
+	color: #F00;
+}
+
+#menu {
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 10px;
+	float: right;
+	margin: 10px 30px;
+	display: none;
+}
+
+.no-grid {
+	display: block;
+}
+
+main h1 {
+	font-size: 26px;
+	margin: 20px;
+}
+
+main p {
+	margin: 20px;
+	line-height: 30px;
+}
+
+input[type=text], input[type=email], textarea, select {
+	width: 100%;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+button {
+	width: 40%;
+	margin: 10px;
+	background-color: blue;
+}

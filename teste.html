@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Gugol</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<link rel="shortcut icon" type="image/png" href="imagens/icone.png">
+</head>
+<body>
+
+	<div class="container">
+		<h1>Formulário:</h1>
+		<form name="formContato" method="post" action="contato.html">
+			<label for="nome">Digite o seu Nome:</label>
+			<input type="text" name="nome" placeholder="Nome completo" size="50" maxlength="40" minlength="3" 
+			autocomplete="off" autofocus="" required 
+			class="form-control form-control-lg">
+			<br>
+			<label for="email">Digite o e-mail</label>
+			<input type="email" name="email" placeholder="Digite um e-mail válido" class="form-control"
+			autocomplete="off" required inputmode="email">
+			<br>
+
+			<input type="number" name="idade" inputmode="numeric" class="form-control">
+			<input type="text" name="telefone" inputmode="numeric"class="form-control">
+			<br>
+			<label for="estadoCivil">Selecionar um Estado Civil:</label>
+			<select name="estadoCivil" required class="form-control">
+				<option value=""></option>
+				<option value="C">Casado</option>
+				<option value="S">Solteiro</option>
+				<option value="E">Enrolado</option>
+			</select>
+			<br>
+			<label for="genero">Selecione o Gênero:</label>
+			<input type="radio" name="genero" value="M"> Masculino
+			<input type="radio" name="genero" value="F"> Feminino
+			<input type="radio" name="genero" value="O"> Outro
+			<br>
+			<label for="disciplina">Selecione uma disciplina</label>
+			<input type="checkbox" name="M"> Matemática
+			<input type="checkbox" name="P"> Português
+			<br>
+			<label for="descricao">Descrição:</label>
+			<textarea name="descricao" cols="30" rows="4" class="form-control"></textarea>
+			<br>
+			<button type="submit" class="btn btn-success">
+				<i class="fas fa-check"></i> Enviar
+			</button>
+			<button type="reset" class="btn btn-danger">Redefinir</button>
+
+		</form>
+
+		<h1>Notícias:</h1>
+
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<img src="imagens/blog-1.jpg" class="w-100">
+				<h2>Notícia 1</h2>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/blog-2.jpg" class="w-100">
+				<h2>Notícia 2</h2>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/blog-3.jpg" class="w-100">
+				<h2>Notícia 3</h2>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/blog-4.jpg" class="w-100">
+				<h2>Notícia 4</h2>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

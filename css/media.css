@@ -1,0 +1,45 @@
+@media ( max-width: 440px ) {
+	.container {
+		width: 380px;
+	}
+	main, aside {
+		width: 100%;
+		display: block;
+	}
+	article {
+		margin: 50px 0;
+	}
+	article p {
+		font-size: 20px;
+	}
+	aside {
+		margin: 20px 0;
+	}
+	.frase {
+		display: none;
+	}
+	header nav {
+		width: 100%;
+		display: none;
+	}
+	header nav ul li {
+		width: 100%;
+		display: block;
+		background-color: #333;
+		margin: 0 10px;
+		padding: 10px;
+		text-align: center;
+	}
+	#menu, .show {
+		display: block;
+	}
+}
+
+@media ( min-width: 440.1px ) and ( max-width:  800px ) {
+	.container {
+		width: 700px;
+	}
+	main {
+		width: 100%;
+	}
+}
