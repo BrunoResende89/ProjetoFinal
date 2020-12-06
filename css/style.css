@@ -181,3 +181,70 @@ button {
 	margin: 10px;
 	background-color: blue;
 }
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/anterior.png');
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/posterior.png');
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+.slick-list{
+    width: 100% !important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    width: 25px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 400px;
+}
+li.slick-active button{
+    background: #00bac6;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.col-3{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
