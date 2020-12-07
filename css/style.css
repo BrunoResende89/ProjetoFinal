@@ -83,7 +83,7 @@ article img:hover {
 }
 
 aside {
-	width: 280px;
+	width: 270px;
 	float: right;
 	background-color: #ffffff;
 }
@@ -191,7 +191,7 @@ main p {
 
 input[type=text], input[type=email], textarea, select {
 	width: 100%;
-	margin: 5px 0;
+	margin: 20px 0px;
 	padding: 5px;
 }
 
@@ -277,7 +277,8 @@ li.slick-active button{
 form button {
 	border-radius: 100px;
 	height: 30px;
-	width: 150px;
+	width: 100px;
 	background-color: rgb(197, 132, 10);
 	color: #FFF;
+	float: left;
 }
