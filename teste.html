@@ -28,10 +28,6 @@
 			<input type="email" name="email" placeholder="Digite um e-mail válido" class="form-control"
 			autocomplete="off" required inputmode="email">
 			<br>
-
-			<input type="number" name="idade" inputmode="numeric" class="form-control">
-			<input type="text" name="telefone" inputmode="numeric"class="form-control">
-			<br>
 			<label for="estadoCivil">Selecionar um Estado Civil:</label>
 			<select name="estadoCivil" required class="form-control">
 				<option value=""></option>
@@ -45,9 +41,10 @@
 			<input type="radio" name="genero" value="F"> Feminino
 			<input type="radio" name="genero" value="O"> Outro
 			<br>
-			<label for="disciplina">Selecione uma disciplina</label>
-			<input type="checkbox" name="M"> Matemática
-			<input type="checkbox" name="P"> Português
+			<label for="disciplina">Escolha seu tipo de Treino:</label>
+			<input type="radio" name="treino" value="b"> Basico/Iniciante
+			<input type="radio" name="treino" value="i"> Intermediário
+			<input type="radio" name="treino" value="a"> Avançado
 			<br>
 			<label for="descricao">Descrição:</label>
 			<textarea name="descricao" cols="30" rows="4" class="form-control"></textarea>
@@ -59,24 +56,35 @@
 
 		</form>
 
-		<h1>Notícias:</h1>
+		<h1>Referencias:</h1>
 
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<img src="imagens/blog-1.jpg" class="w-100">
-				<h2>Notícia 1</h2>
+				<img src="imagens/foto1.jpg" class="w-100">
+				<a href="academia.html">
+					<h2>Conheça a nossa Academia</h2>
+				</a>
 			</div>
 			<div class="col-12 col-md-6">
-				<img src="imagens/blog-2.jpg" class="w-100">
-				<h2>Notícia 2</h2>
+				<img src="imagens/foto2.jpg" class="w-100">
+				<a href="metodos.html">
+					<h2>Métodos de Treino</h2>
+				</a>
 			</div>
 			<div class="col-12 col-md-6">
-				<img src="imagens/blog-3.jpg" class="w-100">
-				<h2>Notícia 3</h2>
+				<img src="imagens/foto3.jpg" class="w-100">
+				<a href="personalTreiner.html">
+					<h2>Personal Treiner</h2>
+				</a>
 			</div>
 			<div class="col-12 col-md-6">
-				<img src="imagens/blog-4.jpg" class="w-100">
-				<h2>Notícia 4</h2>
+				<img src="imagens/foto4.jpg" class="w-100">
+				<a href="Pandemia.html">
+					<h2>
+						<p>Atividade na Pandemia<br></p>
+
+					</h2>
+				</a>
 			</div>
 		</div>
 	</div>

@@ -85,21 +85,40 @@ article img:hover {
 aside {
 	width: 280px;
 	float: right;
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 }
 
 aside ul, aside ol {
 	margin-left: 40px;
 }
 
-aside h2 {
+aside h2, h1{
 	margin: 10px;
+	font-weight: 900;
+	font-size: 24px;
 }
 
 footer {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+footer nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+}
+
+footer nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	/* background: linear-gradient(to right,#F00,#FF0); */
+	
 }
 
 .btn {
@@ -247,4 +266,18 @@ li.slick-active button{
     width: 30%;
     float: left;
     position: relative;
+}
+
+.row img {
+	width: 300px;
+	height: 200px;
+	border-radius: 50px 10px;
+}
+
+form button {
+	border-radius: 100px;
+	height: 30px;
+	width: 150px;
+	background-color: rgb(197, 132, 10);
+	color: #FFF;
 }
