@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Gugol</title>
+	<title>EasyFit.Ltda</title>
 	<meta charset="utf-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
 <!-- comentários - header -->
 <header>
 	<a href="index.html" title="Página Inicial">
-		<img src="imagens/logo.png" title="Logo Gugol" alt="Logo Gugol">
+		<img src="imagens/logo.png" title="Logo EasyFit" alt="Logo EasyFit">
 	</a>
 
 	<a href="#" id="menu">
@@ -33,7 +33,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="sobre.html" title="Sobre o Gugol">
+				<a href="sobre.html" title="Sobre o EasyFit">
 					Sobre
 				</a>
 			</li>
@@ -43,26 +43,20 @@
 				</a>
 			</li>
 			<li>
-				<a href="http://instagram.com" title="Instagram">
-					<i class="fab fa-instagram"></i>
-				</a>
-			</li>
-			<li>
-				<a href="http://facebook.com" title="Facebook">
-					<i class="fab fa-facebook"></i>
+				<a href="teste.html" title="Teste de IMC">
+					Teste
 				</a>
 			</li>
 		</ul>
 	</nav>
 </header>
-
-<figure>
+<div class="col-100">
+	<div class="slide-principal">
 	<img src="imagens/banner1.jpg" alt="Banner" title="Banner">
-	<div class="frase">
-		Faça parte deste Time!!
+	<img src="imagens/banner2.jpg" alt="Banner" title="Banner">
+	<img src="imagens/banner3.jpg" alt="Banner" title="Banner">
 	</div>
-</figure>
-
+</div>
 <div class="container">
 	<main class="no-grid">
 		<h1>Entre em Contato</h1>
@@ -73,7 +67,7 @@
 			autocomplete="off" autofocus="" required>
 			<br>
 			<label for="email">Digite o e-mail</label>
-			<input type="email" name="email" placeholder="Digite um e-mail válido"
+			<input type="email" name="email" placeholder="Digite um e-mail válido" size="50" maxlength="40" minlength="5"
 			autocomplete="off" required>
 			<br>
 			<label for="estadoCivil">Selecionar um Estado Civil:</label>
@@ -88,25 +82,24 @@
 			<input type="radio" name="genero" value="M"> Masculino
 			<input type="radio" name="genero" value="F"> Feminino
 			<input type="radio" name="genero" value="O"> Outro
-			<br>
-			<label for="disciplina">Selecione uma disciplina</label>
-			<input type="checkbox" name="M"> Matemática
-			<input type="checkbox" name="P"> Português
-			<br>
-			<label for="descricao">Descrição:</label>
+			<br><br>
+			<label for="treino">Escolha seu Treino</label>
+			<input type="radio" name="treino" value="b">Basico/Iniciante
+			<input type="radio" name="treino" value="i">Intermediário
+			<input type="radio" name="treino" value="a">Avançado
+			<br><br>
+			<label for="descricao">Descrição da Avaliação Fisíca:</label>
 			<textarea name="descricao" cols="30" rows="4"></textarea>
 			<br>
 			<button type="submit">
 				<i class="fas fa-check"></i> Enviar
 			</button>
 			<button type="reset">Redefinir</button>
-
 		</form>
-
 	</main>
 	<aside>
+		<h1>Referencias:</h1>
 		<div class="row">
-			<h1>Referencias:</h1>
 			<div class="col-12 col-md-6">
 				<img src="imagens/foto1.jpg" class="w-100">
 				<a href="academia.html">
@@ -127,7 +120,7 @@
 			</div>
 			<div class="col-12 col-md-6">
 				<img src="imagens/foto4.jpg" class="w-100">
-				<a href="Pandemia.html">
+				<a href="pandemia.html">
 					<h2>
 						Atividade na Pandemia<br>
 						Como se cuidar?
@@ -142,7 +135,26 @@
 
 <footer>
 	<div class="container">
-		<p>Desenvolvido por Aspiras</p>
+		<p>EasyFit Company oferece ainda mais conteúdo em nossas midias sociais.</p>
+		<nav>
+			<ul>
+				<li>
+					<a href="http://instagram.com" title="Instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://facebook.com" title="Facebook">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="web.whatsapp.com" title="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</div>
 </footer>
 <script type="text/javascript">
@@ -152,5 +164,9 @@
 		document.querySelector('header nav').classList.toggle('show');
 	}
 </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
