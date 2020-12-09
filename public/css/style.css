@@ -100,7 +100,7 @@ aside h2, h1{
 
 footer {
 	background-color: #333;
-	color: #fff;
+	color: rgb(252, 252, 252);
 	padding: 20px;
 	font-weight: 900;
 	font-size: 24px;
@@ -122,10 +122,10 @@ footer nav ul li a {
 }
 
 .btn {
-	background-color: #F00;
-	color: #FFF;
+	background-color: rgb(170, 95, 9);
+	color: rgb(236, 222, 19);
 	padding: 10px;
-	width: 100%;
+	width: 50%;
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -136,7 +136,7 @@ footer nav ul li a {
 
 .btn:hover {
 	background-color: #000;
-	color: #F00;
+	color: rgb(250, 248, 248);
 }
 
 .clearfix {
@@ -238,12 +238,11 @@ button.slick-next{
 }
 .slick-dots li button{
     font-size: 0px;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     width: 25px;
     height: 26px;
     background: transparent;
     border-radius: 50%;
-	cursor: pointer;
 }
 .slick-dots {
     margin: 0 auto;
@@ -253,7 +252,7 @@ button.slick-next{
     top: 400px;
 }
 li.slick-active button{
-	background: #18aab4;
+	background: #ffffff;
 }
 .slick-dots li {
     padding-left: 10px;

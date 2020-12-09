@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>EasyFit.Ltda</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<link rel="shortcut icon" type="image/png" href="imagens/icone.png">
+</head>
+<body>
+<!-- comentários - header -->
+<header>
+	<a href="index.html" title="Página Inicial">
+		<img src="imagens/logo.png" title="Logo EasyFit" alt="Logo EasyFit">
+	</a>
+
+	<a href="#" id="menu">
+		<i class="fas fa-bars"></i>
+	</a>
+
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html" title="Página Inicial">
+					Home
+				</a>
+			</li>
+			<li>
+				<a href="sobre.html" title="Sobre o EasyFit">
+					Sobre
+				</a>
+			</li>
+			<li>
+				<a href="contato.html" title="Contato">
+					Contato
+				</a>
+			</li>
+			<li>
+				<a href="teste.html" title="Teste de IMC">
+					Teste
+				</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<div class="col-100">
+	<div class="slide-principal">
+	<img src="imagens/banner1.jpg" alt="Banner" title="Banner">
+	<img src="imagens/banner2.jpg" alt="Banner" title="Banner">
+	<img src="imagens/banner3.jpg" alt="Banner" title="Banner">
+	</div>
+</div>
+<div class="container">
+	<main class="no-grid">
+		<h1>Teste de IMC</h1>
+		<h2>gratuito do dia 1 ao 10 do mês correspondente a mensalidade paga.</h2>
+		<p>Use o nosso software para verificação de Indice de massa corporea abaixo:</p>
+
+		<a href="imc_index.html" title="IMC" class="btn" >
+			IMC
+		</a>
+	
+	</main>
+	<aside>
+		<h1>Referencias:</h1>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<img src="imagens/foto1.jpg" class="w-100">
+				<a href="academia.html">
+					<h2>Conheça a nossa Academia</h2>
+				</a>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/foto2.jpg" class="w-100">
+				<a href="metodos.html">
+					<h2>Métodos de Treino</h2>
+				</a>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/foto3.jpg" class="w-100">
+				<a href="personalTreiner.html">
+					<h2>Personal Treiner</h2>
+				</a>
+			</div>
+			<div class="col-12 col-md-6">
+				<img src="imagens/foto4.jpg" class="w-100">
+				<a href="pandemia.html">
+					<h2>
+						Atividade na Pandemia<br>
+						Como se cuidar?
+					</h2>
+				</a>
+			</div>
+		</div>
+	</aside>
+</div>
+
+<div class="clearfix"></div>
+
+<footer>
+	<div class="container">
+		<p>EasyFit Company oferece ainda mais conteúdo em nossas midias sociais.</p>
+		<nav>
+			<ul>
+				<li>
+					<a href="http://instagram.com" title="Instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://facebook.com" title="Facebook">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="web.whatsapp.com" title="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>
+<script type="text/javascript">
+	//funcao para acionar o botao de menu
+	document.querySelector('#menu').onclick = function() {
+		//mostrar o esconder o menu
+		document.querySelector('header nav').classList.toggle('show');
+	}
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

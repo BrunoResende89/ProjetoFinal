@@ -59,9 +59,9 @@
 </div>
 <div class="container">
 	<main class="no-grid">
-		<h1>Entre em Contato</h1>
+		<h1>Cadastre-se</h1>
 		
-		<form name="formContato" method="post" action="contato.html">
+		<form name="formContato" method="post" href="index.html">
 			<label for="nome">Digite o seu Nome:</label>
 			<input type="text" name="nome" placeholder="Nome completo" size="50" maxlength="40" minlength="3" 
 			autocomplete="off" autofocus="" required>
@@ -75,7 +75,7 @@
 				<option value=""></option>
 				<option value="C">Casado</option>
 				<option value="S">Solteiro</option>
-				<option value="E">Enrolado</option>
+				<option value="D">Divorciado</option>
 			</select>
 			<br>
 			<label for="genero">Selecione o Gênero:</label>
@@ -88,12 +88,10 @@
 			<input type="radio" name="treino" value="i">Intermediário
 			<input type="radio" name="treino" value="a">Avançado
 			<br><br>
-			<label for="descricao">Descrição da Avaliação Fisíca:</label>
-			<textarea name="descricao" cols="30" rows="4"></textarea>
+			<label for="descricao">Descrição Fisíca:</label>
+			<textarea name="descricao" cols="30" rows="4" placeholder="obs: Peso, Altura, saude mental, preferencias(tipo horario) e outros"></textarea>
 			<br>
-			<button type="submit">
-				<i class="fas fa-check"></i> Enviar
-			</button>
+			<button type="submit" href="index.html">Enviar</button>
 			<button type="reset">Redefinir</button>
 		</form>
 	</main>
