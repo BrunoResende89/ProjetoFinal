@@ -54,6 +54,7 @@ main {
 	float: left;
 	display: grid;
 	grid-template-columns: 350px 350px;
+
 }
 
 article {
@@ -177,6 +178,23 @@ header nav ul li a:hover {
 
 .no-grid {
 	display: block;
+}
+
+.no-grid h1, h2 {
+	text-align: center;
+	margin: 10px;
+	color: rgb(50, 50, 53);
+}
+
+.no-grid article {
+	border-radius: 100px;
+	text-align: center;
+	margin: 10px;
+	font-weight: 24px;
+}
+
+.no-grid iframe {
+	border-radius: 30px;
 }
 
 main h1 {
