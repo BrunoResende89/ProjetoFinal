@@ -32,7 +32,7 @@
             mensagem.className = 'positive';
         }
         else if (imc < 30) {
-            mensagem.innerHTML = `Seu calculo de IMC retornou o valor de <b>${imc}, Você esta com sobrepeso </b>.`;
+            mensagem.innerHTML = `Seu calculo de IMC retornou o valor de <b>${imc}, Você está com sobrepeso </b>.`;
             mensagem.className = 'medium';
         }
         else if (imc < 50) {
