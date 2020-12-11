@@ -182,12 +182,12 @@ header nav ul li a:hover {
 
 .no-grid h1, h2 {
 	text-align: center;
-	margin: 10px;
+	margin: 20px;
 	color: rgb(50, 50, 53);
 }
 
 .no-grid article {
-	border-radius: 100px;
+	border-radius: 80px;
 	text-align: center;
 	margin: 10px;
 	font-weight: 24px;
